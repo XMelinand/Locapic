@@ -1,10 +1,9 @@
 import { View, Text } from "react-native";
 import { ListItem } from "@rneui/themed";
-import { FontAwesome } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { connect } from "react-redux";
 import { ScrollView } from "react-native-gesture-handler";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 function POIListScreen(props) {
   console.log("mypois2", props.poi);
